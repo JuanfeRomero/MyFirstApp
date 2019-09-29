@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyFirstApp</string>
+    <string name="hello_world_text">Hello new app.</string>
+    <string name="button_toast">TOAST</string>
+    <string name="button_count">COUNT</string>
+    <string name="button_random">RANDOM</string>
+    <string name="starter_counter_textView">0</string>
+    <string name="random_heading">Here is a random number between 0 and %1d</string>
+    <string name="random_placeholder">R</string>
+</resources>
