@@ -23,9 +23,13 @@ public class MainActivity extends AppCompatActivity {
      * @param view -- the view that is clicked
      */
     public void toastMe(View view){
+        //getting view of the edit text
+        TextView showEditTextView = findViewById(R.id.editText);
+        //getting text and putting it on a variable for the toast button.
+        String editTextContent = showEditTextView.getText().toString();
         // Toast myToast = Toast.makeText(this, message, duration);
-        Toast myToast = Toast.makeText(this, "Hello Toast!",
-                Toast.LENGTH_SHORT);
+        Toast myToast = Toast.makeText(this, editTextContent,
+                Toast.LENGTH_LONG);
         myToast.show();
     }
     public void countMe(View view){
