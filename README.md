@@ -5,7 +5,10 @@
 
 -I'll include the whole project and the apk file built from it on this repository.
 
--This app has 3 buttons which either shows a floating message, adds numbers to a counter and one that goes to a second screen to show a random number between zero and the current number in the counter, it also contains a welcome message that can be edited.
+-This app has 3 buttons:
+  *Toast: it shows the messages that it's written on the 'hello new app' text box
+  *Count: it adds a number to the counter, every time it's tapped it will add 1 more
+  *Random: it will show a second screen which will display a random number between 0 and the current number on the counter
 
 
 <img src="https://user-images.githubusercontent.com/53281927/65838917-8eeca000-e2de-11e9-8467-81144ab8d3be.png" width="50%" height="50%"><img src="https://user-images.githubusercontent.com/53281927/65838918-8f853680-e2de-11e9-9c23-83306a33fdb7.png" width="50%" height="50%">
